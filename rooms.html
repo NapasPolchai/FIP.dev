@@ -2,30 +2,130 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
     <title>Room Styles</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sanchez:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav id="topmenu">
-            <ul>
-                <a class="top-logo" href="index.html"><img src="images/couples_resort_logo.svg" alt="company logo"></a>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Rooms</a></li>
-                <li><a href="#">Packages</a></li>
-                <li><a href="#">Dining</a></li>
-                <li><a href="#">Spa</a></li>
-                <li><a href="#">Activities</a></li>
-                <li><a href="#">Reservation</a></li>
-                <button id="navbutton">Book Now</button>
-            </ul>
-        </nav>
-    </header>
+    <div id="main">
+        <header>
+            <nav class="navigation">
+                <div class="navigation__main">
+                    <a class="navigation__logo" href="index.html"><img src="/assets/images/couples_resort_logo.svg" alt="company logo"></a>
+                    <ul class="navigation__links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Rooms</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Dining</a></li>
+                        <li><a href="#">Spa</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Reservation</a></li>
+                    </ul>
+                </div>
+                <button class="navigation__cta">Book Now</button>
+            </nav>
+        </header>
 
-    <main>
-        <p id="titledes">Couple Resort</p>
-        <h1>Room Styles</h1>
-        <img id="heroimg" src="images/hero.jpg" alt="hero image">
-    </main>
+        <section class="hero">
+            <div class="container container--narrow">
+                <p class="tagline">Couple Resort</p>
+                <h1>Room Styles</h1>
+                <hr class="divider">
+                <!-- <img id="heroimg" src="/assets/images/hero.jpg" alt="hero image"> -->
+            </div>
+
+            <div class="hero__banner">
+                <div class="container container--narrow">
+                    <div class="hero__card">
+                        <p class="tagline">Couples Resort</p>
+                        <h3>Exceeds 5 Diamond/Star Room Standards.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="facilities">
+            <div class="container container--narrow">
+                <div class="facilities__wrapper">
+                    <p class="tagline">Drink - Tap Water - Algonquin Park Aquifer</p>
+
+                    <ul class="facilities__list">
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                        <li class="facilities__item">
+                            <div class="facilities__icon"></div>
+                            <div class="facilities__label">Private Out Door Hot Tubs</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="accommodation">
+            <div class="container">
+                <h2>Room types</h2>
+
+                <div class="accommodation__gallery">
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                    <div class="accommodation__item">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="contact__banner">
+                <div class="container container--narrow">
+                    <div class="contact__card">
+                        <p class="tagline">Couples Resort</p>
+                        <h2>Contact</h2>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact__content">
+                <div class="container container--narrow">
+                    <hr class="divider">
+                    <p>Thank you for taking the time to learn more about our resort and why we are Ontario’s number one choice for couples looking to reconnect. For reservation enquiries and further information, please complete our contact form below. Or if you prefer to talked call us at our toll free number listed below.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
