@@ -1,0 +1,11 @@
+nav {
+    font-family: sanchez, Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbutton {
+    font-family: sanchez, Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 20px;
+    color: white;
+    background-color: #871C15;
+}
