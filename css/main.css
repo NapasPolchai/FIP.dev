@@ -1,5 +1,11 @@
+.top-logo {
+    width: 244px;
+    height: auto;
+}
+
 nav {
     font-family: sanchez, Georgia, 'Times New Roman', Times, serif;
+    display: inline;
 }
 
 #navbutton {
@@ -8,4 +14,20 @@ nav {
     font-size: 20px;
     color: white;
     background-color: #871C15;
+}
+
+h1 {
+    font-family: sanchez, Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    color: black;
+}
+
+#titledes {
+    font-family: sanchez, Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #9A2018;
+}
+
+#heroimg {
+    width: max-content;
 }
